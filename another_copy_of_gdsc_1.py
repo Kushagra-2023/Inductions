@@ -514,5 +514,12 @@ import gradio as gr
 
 """The Gradio app"""
 
-app =  gr.Interface(fn = pred, inputs="text", outputs="text")
+app = gr.Interface(
+    fn=pred,
+    inputs="text",
+    outputs="text",
+    title="Text Prediction",
+    description="This app allows you to predict sentiment of sentence.",
+)
 app.launch()
+
