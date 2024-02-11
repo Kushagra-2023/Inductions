@@ -16,6 +16,7 @@ Approach:
 5. Making predictions.
 
 I faced difficulty in training my Doc2Vec model as it required large (and good data). I did find some good datasets but they were too large to be loaded in colab notebook, and train time was even larger. In the end I had to balance resources and quality. Having reached limitations due to computational, my predictions were as good as random, but I believe there's still scope for improvement if I find a relevant dataset and somehow train for 'even longer'.
+The good thing about my model is that it gives output in almost a second.
 
 Steps to run the project :
   Just run all at once!
